@@ -160,7 +160,7 @@ class BusinessController extends BaseController
             // $result = $collection->unique()->values()->all();
             $results = $results->toArray();
            
-            $data = [];
+            $data = []; 
             foreach($results as $res) 
             {
                 $data[] = $res['address'];
