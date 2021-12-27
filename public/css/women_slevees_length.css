@@ -1,0 +1,128 @@
+/* women_sleeves_length.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.women_sleeve_length_page_body {
+    padding: 10px 30px 20px 30px;
+}
+
+/* #################################################  ###################################
+                                        women_sleeve_length
+#################################################  ################################### */
+.w-filter-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+    border: 1px solid rgba(256, 256, 256, 1);
+}
+.slf__type1 {
+    height: 300px;
+    width: 100%;
+}
+.slf__type2 {
+    height: 600px;
+    width: 100%;
+}
+.slf__type3 {
+    height: 200px;
+    width: 100%;
+}
+.sleeveLengthFilter .filterTitle span {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.sleeveLengthFilter .filterTitle {
+    background-color: #262626;
+    opacity: 0.5;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+.sl__filter1,
+.sl__filter2,
+.sl__filter3,
+.sl__filter4,
+.sl__filter5,
+.sl__filter6 {
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out 1s;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.sl__filter1 {
+    background-image: url("../image/womenCat/sleeveType2.jpg");
+}
+.sl__filter2 {
+    background-image: url("../image/womenCat/sleeveType3.jpg");
+}
+.sl__filter3 {
+    background-image: url("../image/womenCat/sleeveType1.jpg");
+    background-position: center;
+}
+.sl__filter4 {
+    background-image: url("../image/womenCat/jum1.png");
+}
+.sl__filter5 {
+    background-image: url("../image/womenCat/formal1.png");
+}
+.sl__filter6 {
+    background-image: url("../image/womenCat/cocktail1.png");
+}
+.sleeveLengthFilter:hover {
+    transform: scale(1.04);
+    z-index: 100;
+}
+
+/* #################################################  ###################################
+            <!-- ############### text plus image section   ############-->
+#################################################  ################################### */
+.section-heading {
+    margin: 30px auto;
+}
+.w-cat-main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.text-section-img-area {
+    height: 300px;
+    width: 100%;
+    background-image: url("../image/text_section_images/dressLength.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.text-section-para {
+    font-size: 1rem;
+    line-height: normal;
+    width: 90%;
+}
+.text-section-see-more .read-more {
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: #000;
+    border: rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text-section-see-more .read-more:hover {
+    color: #000;
+    border: rgba(0, 0, 0, 0.9);
+    font-size: 1.1rem;
+}
+.imgDiv {
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out 1s;
+}
+.imgDiv:hover .text-section-img-area {
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}

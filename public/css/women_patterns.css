@@ -1,0 +1,178 @@
+.women_patterns_page_body {
+    padding: 10px 30px 20px 30px;
+    background-color: #fff;
+}
+
+/* #################################################  ###################################
+                                            women occasions dresses
+    #################################################  ################################### */
+.pattern__filter {
+    height: 200px;
+    margin: 0px 0px;
+    border: 1px solid gray;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    position: relative;
+}
+
+.pattern__filter_inner {
+    padding-bottom: 3px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pf__title {
+    padding: 5px 15px;
+    background-color: #fff;
+    opacity: 0.6;
+    border-radius: 7px;
+}
+
+.pattern__filter_inner .pf__title span {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pf__type1 {
+    width: 400px;
+}
+.pf__type2 {
+    width: 300px;
+}
+.pf__type3 {
+    width: 360px;
+}
+.pf__type4 {
+    width: 280px;
+}
+.pf__type5 {
+    width: 600px;
+}
+
+/* on hover effects */
+
+.pattern__filter:hover .pattern__filter_inner {
+    transform: scale(1.15);
+    transition: ease-in-out 2s;
+}
+.pattern__filter:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+        rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+        rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+/* setting background-images  */
+.pf1 {
+    background-image: url("../image/112.png");
+}
+.pf2 {
+    background-image: url("../image/womenCat/jum1.png");
+}
+.pf3 {
+    background-image: url("../image/womenCat/jumber1.png");
+}
+.pf4 {
+    background-image: url("../image/112.png");
+}
+.pf5 {
+    background-image: url("../image/womenCat/sleeveType2.jpg");
+}
+.pf6 {
+    background-image: url("../image/112.png");
+}
+.pf7 {
+    background-image: url("../image/womenCat/sleeveType3.jpg");
+}
+.pf8 {
+    background-image: url("../image/112.png");
+}
+.pf9 {
+    background-image: url("../image/womenCat/cocktail1.png");
+}
+.pf10 {
+    background-image: url("../image/112.png");
+}
+.pf11 {
+    background-image: url("../image/womenCat/sleeveType2.jpg");
+}
+.pf12 {
+    background-image: url("../image/112.png");
+}
+.pf13 {
+    background-image: url("../image/womenCat/sleeveType3.jpg");
+}
+.pf14 {
+    background-image: url("../image/112.png");
+}
+.pf15 {
+    background-image: url("../image/womenCat/sleeveType3.jpg");
+}
+.pf16 {
+    background-image: url("../image/112.png");
+}
+.pf17 {
+    background-image: url("../image/womenCat/sleeveType1.jpg");
+}
+.pf18 {
+    background-image: url("../image/womenCat/jum1.png");
+}
+.pf19 {
+    background-image: url("../image/112.png");
+}
+.pf20 {
+    background-image: url("../image/womenCat/coat.jpg");
+}
+.pf21 {
+    background-image: url("../image/112.png");
+}
+.pf22 {
+    background-image: url("../image/112.png");
+}
+.pf23 {
+    background-image: url("../image/womenCat/casual1.png");
+}
+.pf24 {
+    background-image: url("../image/112.png");
+}
+.pf25 {
+    background-image: url("../image/womenCat/sleeveType2.jpg");
+}
+.pf26 {
+    background-image: url("../image/112.png");
+}
+.pf27 {
+    background-image: url("../image/womenCat/sleeveType1.jpg");
+}
+
+/* ###########################media breakpoints ####################### */
+
+@media (min-width: 576px) {
+}
+
+@media (max-width: 768px) {
+    .pf__type1,
+    .pf__type2,
+    .pf__type3,
+    .pf__type4,
+    .pf__type5 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .pf__type1,
+    .pf__type2,
+    .pf__type3,
+    .pf__type4,
+    .pf__type5 {
+        width: 400px;
+    }
+}

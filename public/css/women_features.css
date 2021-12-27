@@ -1,0 +1,129 @@
+/* women_features */
+* {
+    margin: 0;
+    padding: 0;
+}
+.women_features_page_body {
+    padding: 10px 30px 20px 30px;
+}
+
+/* #################################################  ###################################
+                                        Womend dress features 
+#################################################  ################################### */
+.w-filter-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.features__filter {
+    width: 300px;
+    height: 270px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out 1s;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-color: rgba(102, 132, 141, 0.24);
+    border-radius: 7px;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+
+.f__filter1 {
+    background-image: url("../image/womenCat/cocktail1.png");
+}
+.f__filter2 {
+    background-image: url("../image/womenCat/formal1.png");
+}
+.f__filter3 {
+    background-image: url("../image/womenCat/jum1.png");
+}
+.f__filter4 {
+    background-image: url("../image/womenCat/sleeveType1.jpg");
+}
+
+.features__filter .ff__title {
+    background-color: #262626;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.features__filter .ff__title span {
+    background-color: #262626;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.features__filter:hover,
+.features__filter:focus {
+    transition: all 1s;
+
+    border: 2px solid rgb(59, 154, 218);
+    z-index: 1;
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* #################################################  ###################################
+            <!-- ############### text plus image section   ############-->
+#################################################  ################################### */
+.section-heading {
+    margin: 30px auto;
+}
+.w-cat-main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.text-section-img-area {
+    height: 300px;
+    width: 100%;
+    background-image: url("../image/text_section_images/dressLength.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.text-section-para {
+    font-size: 1rem;
+    line-height: normal;
+    width: 90%;
+}
+.text-section-see-more .read-more {
+    padding: 10px 15px;
+    border-radius: 7px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    color: #000;
+    border: rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text-section-see-more .read-more:hover {
+    color: #000;
+    border: rgba(0, 0, 0, 0.9);
+    font-size: 1.1rem;
+}
+.imgDiv {
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out 1s;
+}
+.imgDiv:hover .text-section-img-area {
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}

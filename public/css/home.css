@@ -1,0 +1,408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-nav {
+    display: block !important;
+}
+.default-width {
+    max-width: 1280px;
+    /* border: 1px solid red; */
+}
+
+/* ###################################################################################################################
+                                                    Top search area with banner 
+################################################################################################################### */
+
+.topSearchBanner {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/searchBack.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.topBHeading {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 50px;
+}
+.topBSubHeading {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.bannerCat {
+    height: 100px;
+    width: 100px;
+    /* border-radius: 7px; */
+}
+.bannerCat:hover i {
+    transform: scale(1.2);
+    color: #fff;
+}
+.iconDiv {
+    height: 50px;
+    width: 50px;
+}
+input[type="radio"]:checked i {
+    color: black;
+}
+
+input[type="radio"]:checked + label {
+    transform: scaleY(1.2);
+    background-color: #fff;
+    transform-origin: bottom left;
+}
+
+.bannerCat:hover {
+    background-color: #7985cc;
+}
+
+.tbc1 {
+    background-color: #00a8c6;
+}
+.tbc2 {
+    background-color: #a868c2;
+}
+.tbc3 {
+    background-color: #ffaf02;
+}
+.tbc4 {
+    background-color: #767690;
+}
+.tbc5 {
+    background-color: #f465af;
+}
+
+.bannerSearch {
+    margin: auto;
+    border-radius: 7px;
+    outline: none;
+    background-color: #fff;
+    border: 7px solid #fff;
+}
+.bannerSearch:focus {
+    border: none;
+    outline: none;
+}
+.searchInput {
+    width: 90%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 2.2rem;
+}
+.bannerCatIcon {
+    font-size: 50px;
+    color: #fff;
+}
+.searchIconArea .fa-search {
+    /* width: 5%; */
+    font-size: 20px;
+    color: #fff;
+}
+.searchIconArea {
+    width: max-content;
+    border: 2px solid #fff;
+    height: 100%;
+    background-color: #05b3c6;
+    border-radius: 7px;
+}
+.bannerSearch input {
+    /* width: 90%; */
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+}
+.advancedSearch {
+    background-color: #f85556;
+    max-width: max-content;
+    border-radius: 7px;
+}
+.advancedSearch:hover {
+    background-color: #767690;
+}
+
+/* ###################################################################################################################
+                                                    Home Products
+################################################################################################################### */
+
+.home-product {
+    height: 350px;
+    background-color: #f8f6f7;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.home-product1 {
+    height: 350px;
+    /* background-color: #f8f6f7; */
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #f8f6f7;
+}
+.home-p-img-sec {
+    height: 350px;
+    width: 100%;
+}
+.home-p-img-sec img {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.home-pro-title {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.home-pro-discount {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #555555;
+}
+.home-pro-discount span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #555555;
+}
+.home-pro-link span {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #555555;
+}
+.home-pro-link i {
+    color: #fff;
+}
+.home-pro-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #555;
+}
+.home-product1 {
+    /* border: 1px solid black; */
+}
+.baby-cat-cards {
+    /* border-right: 1px solid rgba(0, 0, 0, 0.5); */
+}
+.b-card1 {
+    /* margin-left: 4%; */
+    /* width: 28%; */
+    width: 350px;
+    height: 100%;
+}
+.b-card2 {
+    height: 100%;
+    width: 33%;
+    width: 400px;
+    /* margin-right: 2%; */
+}
+.b-card3 {
+    height: 100%;
+    width: 350px;
+    margin-right: 10%;
+    /* transform: skewX(2deg); */
+}
+.b-card1 {
+    /* clip-path: polygon(0 0, 100% 0, 94% 100%, 0 100%); */
+    background-color: rgba(191, 152, 172, 0.8);
+    transform: skewX(-3deg);
+}
+.b-card2 {
+    /* clip-path: polygon(7% 0, 100% 0, 91% 100%, 0 100%); */
+    background-color: #99dbfb;
+    transform: skewX(-5deg);
+}
+.b-card3 {
+    /* clip-path: polygon(9% 0, 100% 0, 100% 100%, 0 100%); */
+    background: rgba(44, 79, 51, 0.13);
+    background: radial-gradient(
+        circle,
+        rgba(207, 174, 238, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    transform: skewX(-5deg);
+}
+.home-product-right {
+    width: 60%;
+}
+.home-product-left {
+    width: 40%;
+}
+
+/* ###################################################################################################################
+                                                    Top Offer
+################################################################################################################### */
+.h-offer {
+    height: 450px;
+    max-width: 640px;
+    overflow: hidden;
+}
+.offer-side-card {
+    height: 400px;
+    width: 100%;
+    background-color: #dfdfdf;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* .offer-side-card:hover  */
+.h-offer:hover .offer-side-card .offer-upper-sec,
+.h-offer:focus .offer-side-card .offer-upper-sec {
+    transform: scale(1.06);
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.offer-upper-sec {
+    height: 390px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 50px;
+    margin-bottom: -95px;
+}
+
+.offer-side-card-heading {
+    height: 100px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    width: 80%;
+    z-index: 1000;
+    margin-bottom: -10px;
+}
+.offer-side-card-heading p,
+.offer-side-card-heading h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.offer-single-card {
+    height: 185px;
+    width: 190px;
+    background-color: #dfdfdf;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.offer-icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.offer-icon i {
+    color: #fff;
+}
+.offer-single-card:hover .offer-icon i {
+    transform: scale(1.5);
+    transition: ease-in-out 0.5s;
+}
+
+.offer-single-card:hover .offer-heading .h3,
+.offer-single-card:hover .offer-heading p {
+    color: rgba(0, 0, 0, 1);
+}
+
+/* ###################################################################################################################
+                                                   new Top Offer
+################################################################################################################### */
+
+.top__offer__body {
+    width: 100%;
+    height: 400px;
+}
+
+.middle__row {
+    height: 200px;
+    width: 100%;
+}
+.top__row__col1,
+.top__row__col2,
+.top__row__col3 {
+    height: 100px;
+}
+.top__row__col1 {
+    width: 30%;
+    background-color: #00a8c6;
+}
+.top__row__col2 {
+    width: 45%;
+    background-color: #8a2be2;
+}
+.top__row__col3 {
+    width: 25%;
+    background-color: #bd967a;
+}
+
+.bottom__row__col1,
+.bottom__row__col2,
+.bottom__row__col3 {
+    height: 100px;
+}
+
+.bottom__row__col1 {
+    width: 50%;
+    background-color: #9cb5e2;
+}
+.bottom__row__col2 {
+    width: 20%;
+    background-color: #ff6582;
+}
+.bottom__row__col3 {
+    width: 30%;
+    background-color: #fc7f6e;
+}
+.offer__title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+.offer__title:hover {
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+}
+.offer__count {
+    color: #fff;
+}
+.middle__row {
+    height: 200px;
+}
+
+.middle__col1 {
+    width: calc(50% + 50px);
+    height: 100%;
+    background-color: #ffaf02;
+    box-sizing: border-box;
+}
+.middle__col2 {
+    width: calc(50% + 50px);
+    height: 100%;
+    background-color: #9871ef;
+    box-sizing: border-box;
+    border-left: 100px solid #ffaf02;
+    border-bottom: 200px solid transparent;
+}
+.midd__col2__title {
+    margin-top: 200px;
+}
+
+.offer__icons {
+    color: #fff;
+}
+
+.icon__img {
+    width: 35px;
+    height: 35px;
+}

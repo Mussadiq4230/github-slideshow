@@ -1,0 +1,52 @@
+.women_embellishments_page_body {
+    padding: 10px 30px 20px 30px;
+    background-color: #fff;
+}
+
+/* #################################################  ###################################
+                                        women occasions dresses
+#################################################  ################################### */
+.neckline__filter 
+{
+    width: 300px;
+    height: 130px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px 2px;
+}
+.neckline__filter:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+            rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+
+    transform: translateZ(3px);
+    width: 303px;
+    transition: all 1s;
+}
+
+.neckline__filter:hover .neckline__title {
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.neckline__upper {
+    height: 90px;
+    width: 100%;
+}
+.neckline__img {
+    height: 80px;
+    width: 130px;
+}
+.neckline__lower {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.neckline__title span {
+    color: #262626;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transform: translateY(-10);
+}

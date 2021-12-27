@@ -1,0 +1,16 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #283048 !important;
+}
+
+.nav-pills .nav-link:hover{
+	color: #000;
+	background-color: #b7b7b7 !important;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color:#283048;
+    border-color:#283048;
+}

@@ -1,0 +1,161 @@
+.women_neckline_page_body {
+    padding: 10px 30px 20px 30px;
+    background-color: #fff;
+}
+
+/* #################################################  ###################################
+                                        women neckline dresses
+#################################################  ################################### */
+.neckline__filter {
+    width: 200px;
+    height: 175px;
+    border-radius: 5px;
+    margin: 10px 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.neckline__filter_title {
+    padding-top: 5px;
+    height: 50px;
+    margin-top: 133px;
+    z-index: 10px;
+    width: 80%;
+    background-color: rgb(19, 9, 29);
+    opacity: 0.7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.neckline__filter_title span {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.n__filter1 {
+    background-image: url("../image/vector/girl2.png");
+}
+.n__filter2 {
+    background-image: url("../image/vector/girl3.jpg");
+}
+.n__filter3 {
+    background-image: url("../image/vector/girlVector.png");
+}
+.n__filter4 {
+    background-image: url("../image/vector/girlVector.png");
+}
+.n__filter5 {
+    background-image: url("../image/vector/girl3.jpg");
+}
+.n__filter6 {
+    background-image: url("../image/womenCat/sleeveType1.jpg");
+}
+.n__filter7 {
+    background-image: url("../image/vector/girl2.png");
+}
+.n__filter8 {
+    background-image: url("../image/vector/girl2.png");
+}
+.n__filter9 {
+    background-image: url("../image/vector/girl2.png");
+}
+.n__filter10 {
+    background-image: url("../image/vector/girl2.png");
+}
+.n__filter11 {
+    background-image: url("../image/vector/girl2.png");
+}
+
+.nf__title1 {
+    background-color: rgb(44, 31, 58);
+    opacity: 0.8;
+}
+.nf__title2 {
+    background-color: rgb(43, 14, 150);
+    opacity: 0.8;
+}
+.nf__title3 {
+    background-color: rgb(19, 32, 30);
+    opacity: 0.8;
+}
+.nf__title4 {
+    background-color: rgb(123, 38, 134);
+    opacity: 0.8;
+}
+.nf__title5 {
+    background-color: rgb(35, 29, 41);
+    opacity: 0.8;
+}
+.nf__title6 {
+    background-color: rgb(54, 8, 39);
+    opacity: 0.8;
+}
+.nf__title7 {
+    background-color: rgb(3, 48, 73);
+    opacity: 0.8;
+}
+.nf__title8 {
+    background-color: rgb(68, 6, 42);
+    opacity: 0.8;
+}
+.nf__title9 {
+    background-color: rgb(35, 29, 41);
+    opacity: 0.8;
+}
+.nf__title10 {
+    background-color: rgb(23, 49, 6);
+    opacity: 0.8;
+}
+.nf__title11 {
+    background-color: rgb(35, 29, 41);
+    opacity: 0.8;
+}
+.nf__title12 {
+    background-color: rgb(35, 29, 41);
+    opacity: 0.8;
+}
+.nf__title13 {
+    background-color: rgb(20, 8, 32);
+    opacity: 0.8;
+}
+.nf__title14 {
+    background-color: rgb(14, 53, 17);
+    opacity: 0.8;
+}
+.nf__title15 {
+    background-color: rgb(44, 26, 63);
+    opacity: 0.8;
+}
+.nf__title16 {
+    background-color: rgb(44, 16, 18);
+    opacity: 0.8;
+}
+.nf__title17 {
+    background-color: rgb(24, 10, 37);
+    opacity: 0.8;
+}
+.nf__title18 {
+    background-color: rgb(3, 6, 36);
+    opacity: 0.8;
+}
+.nf__title19 {
+    background-color: rgb(35, 29, 41);
+    opacity: 0.8;
+}
+.nf__title20 {
+    background-color: rgb(5, 56, 20);
+    opacity: 0.8;
+}
+.nf__title21 {
+    background-color: rgb(11, 46, 51);
+    opacity: 0.8;
+}
+.nf__title22 {
+    background-color: rgb(42, 14, 27);
+    opacity: 0.8;
+}
+.nf__title23 {
+    background-color: rgb(103, 59, 146);
+    opacity: 0.8;
+}

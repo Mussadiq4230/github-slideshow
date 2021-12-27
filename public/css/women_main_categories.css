@@ -1,0 +1,115 @@
+/* #################################################  ###################################
+                                        new page body
+#################################################  ################################### */
+.women__main_cat__page__body {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px 20px 30px;
+}
+
+/* #################################################  ###################################
+            <!-- ############### Women categories  ############-->
+#################################################  ################################### */
+
+.w-cat-main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.categories-list-general {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+.categories-list-general:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.w-cat-title {
+    background: #283048;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.categories-list-general:hover .w-cat-title span {
+    transform: scale(1.05);
+}
+
+.w-cat-type1 {
+    height: 480px;
+    /* width: 530px; */
+    width: 100%;
+    position: relative;
+}
+
+.w-cat-type2 {
+    height: 238px;
+    width: 48%;
+    position: relative;
+}
+
+.w-category-card-img {
+    height: 100%;
+    width: 100%;
+}
+.w-category-card-img:hover {
+    transform: scale(1.1);
+}
+.w-cat-title span {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.w-cat-title {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+/* #################################################  ###################################
+                                       tem filter Links 
+#################################################  ################################### */
+.w-filter-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.links a {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: max-content;
+}
+.filter_links {
+    margin-bottom: 40px;
+    padding: 10px 15px;
+}
+
+/* #################################################  ###################################
+            <!-- ############### breakpoints ############-->
+#################################################  ################################### */
+
+@media (max-width: 576px) {
+    .w-cat-main-heading,
+    .w-filter-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .w-cat-main-heading,
+    .w-filter-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,82 @@
+/* general setting  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #################################################  ###################################
+            <!-- ############### text plus image section   ############-->
+#################################################  ################################### */
+.heading__sub__para {
+    max-width: 992px;
+    font-size: 1rem;
+}
+.w-filter-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.section-heading {
+    margin: 30px auto;
+}
+.w-cat-main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.text-section-img-area {
+    height: 300px;
+    width: 100%;
+    background-image: url("../image/text_section_images/dressLength.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.text-section-para {
+    font-size: 1rem;
+    line-height: normal;
+    width: 90%;
+}
+.text-section-see-more .read-more {
+    padding: 10px 15px;
+    border-radius: 7px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    color: #000;
+    border: rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text-section-see-more .read-more:hover {
+    color: #000;
+    border: rgba(0, 0, 0, 0.9);
+    font-size: 1.3rem;
+}
+.imgDiv {
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out 1s;
+}
+.imgDiv:hover .text-section-img-area {
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}
+
+/* #################################################  ###################################
+            <!-- ############### breakpoints ############-->
+#################################################  ################################### */
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+    .w-cat-main-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

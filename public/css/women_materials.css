@@ -1,0 +1,50 @@
+.women_materials_page_body {
+    padding: 10px 30px 20px 30px;
+    background-color: #fff;
+}
+
+/* #################################################  ###################################
+                                        women occasions dresses
+#################################################  ################################### */
+.women__dresses__material {
+    width: 130px;
+    height: 160px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 7px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.women__dresses__material:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.material__upper {
+    height: 110px;
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+}
+.material__img {
+    height: 80px;
+    width: 80px !important;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.material__img img {
+    object-fit: cover;
+    width: 80px;
+    width: 80px;
+}
+.material__lower {
+    height: 50px;
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+    overflow: hidden;
+}
+.material__lower span {
+    color: #262626;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

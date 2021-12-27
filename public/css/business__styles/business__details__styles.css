@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.business__detail_page__body {
+    /* padding: 30px 30px; */
+    /* border: 1px solid red; */
+}
+
+/* top section  */
+.product__detail_top_section,
+.product__photos__section,
+.product__description__section,
+.rating__reviews__section1,
+.rating__reviews__section2 {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px 40px;
+}
+.pd__logo__container .product__logo {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.product__detail__col1,
+.product__detail__col2 {
+    padding-top: 50px;
+}
+.product__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.product__store_title {
+    padding: 10px 0px;
+    font-size: 1.7rem;
+    padding: 0px;
+    line-height: 30px;
+}
+.product__address .address__info {
+    font-size: 1.5rem;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.product__address .product__link,
+.product__address .product__link:hover {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 20px;
+    text-decoration: underline;
+    line-height: 30px;
+    color: black;
+}
+
+.product__info__btn {
+    padding: 7px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.product__info__btn:hover,
+.product__info__btn:hover i,
+.product__info__btn:hover span {
+    background-color: black;
+    border-radius: 5px;
+    color: #fff;
+}
+.rating_section .full__rating,
+.rating_section .half__rating {
+    color: gold;
+}
+.read__review,
+.read__review:hover {
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: black;
+}
+.read__review:hover {
+    text-decoration: none;
+}
+.store__timing a {
+    font-size: 1.4rem;
+    color: black;
+    margin: 0;
+}
+.store__timing a .seeAll {
+    font-size: 1.4rem;
+    color: black;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* #########################  product images section    ############################## */
+.product__img {
+    height: 150px;
+    width: 100%;
+}
+.add_product__img {
+    height: 150px;
+    width: 99%;
+    background-color: rgb(242, 242, 242);
+}
+.product__img {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.add__option {
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.bus__like__ques {
+    font-weight: 700;
+}
+
+.opening__hours__timing {
+    width: 40%;
+}
+
+/* ###########################    opening time hours    #############################3 */
+.hideBody {
+    display: none;
+}
+.tableBorder {
+    padding: 0px 0px;
+    border: 1px solid gray;
+}
+.topDay {
+    font-weight: bold;
+}
+.topDayTime {
+    font-weight: bold;
+}
+.Days {
+    font-weight: 400;
+}
+
+/* ############################# rates and payment method ################################ */
+.rate__price {
+    font-size: 1.5rem;
+}
+.payment__icons {
+    width: 40px;
+    height: 30px;
+    border: 1px rgba(0, 0, 0, 0.7);
+}
+
+/* #################### Map ################ */
+#map1 {
+    height: 300px;
+    width: 100%;
+}
+
+/* #############        lower__section ################ */
+.lower__section {
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.add__Fav__btn {
+    max-width: max-content;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.star__icon {
+    color: gold;
+}
+.share__icons {
+    color: #15aabf;
+}
+.add__btn .btn__title {
+    text-decoration: underline;
+    color: black;
+    font-weight: 700;
+}
+.btn__title:hover {
+    text-decoration: none;
+}
+
+/* ##################business__rating ############### */
+.rating__reviews__section2 {
+    margin-top: 30px;
+}
+.business__rating {
+    background-color: #fff;
+    padding: 20px;
+}
+.modal__open,
+.modal__open:hover,
+.modal__open:focus {
+    max-width: max-content;
+    padding: 10px 10px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.rate__it {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 15px 0px;
+    border: 1px solid gray;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(240, 241, 242, 1) 78%
+    );
+}
+
+.ratting__title,
+.rating__stars {
+    padding: 10px 0px;
+}
+
+.rating__count a span,
+.rating__count a:hover .rating__count a span {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+.rating__stars {
+    color: gold;
+}
+
+.rating__values__title {
+    font-size: 1.5rem;
+}
+
+/* ##################################### Comment section #################### */
+.commenter__img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: rgb(221, 204, 204);
+}
+.commenter__date_time span {
+    color: #7c93b9;
+}
+.reaction__count {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+}
+.reaction i {
+    font-size: 1.7rem;
+}
+
+.avg__rate {
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+.total__rate {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* ####################Rating__reviews__modal #################### */
+#Rating__reviews__modal {
+    background-color: black;
+}
+#Rating__reviews__modal .modal-title,
+#Rating__reviews__modal .close {
+    color: #fff;
+}
+
+.mod__review__text {
+    width: 100%;
+    padding: 10px;
+}
+.mod__review__text:hover,
+.mod__review__text:focus {
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.photo__label {
+    width: 140px;
+    height: 140px;
+    padding: 2 0px;
+    border: 1px dashed rgb(116, 107, 107);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.term__of__use {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mod__email {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.mod__email:focus {
+    border: 1px solid rgb(154, 195, 219);
+}
+
+.submit__modal {
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: black;
+    color: #fff;
+    max-width: max-content;
+}
+.submit__modal:hover {
+    font-weight: bold;
+}
+
+#review__modal {
+    padding: 10px 30px;
+}

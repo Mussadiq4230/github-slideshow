@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.women_sleeve_type_page_body {
+    padding: 10px 30px 20px 30px;
+}
+
+/* #################################################  ###################################
+                                   Sleeve type heading 
+#################################################  ################################### */
+
+.w-filter-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.section-heading {
+    margin: 30px auto;
+}
+
+/* #################################################  ###################################
+                                        Sleeves Type Filter
+#################################################  ################################### */
+.SleevesTypeFilterWrapper .SleevesTypeFilter {
+    width: 230px;
+    height: 210px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: #f0f3f5;
+    opacity: 0.9; */
+}
+.SleevesTypeFilterWrapper .SleevesTypeFilter:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: translateY(2px);
+}
+.SleevesTypeFilterWrapper .SleevesTypeFilter:hover .dressStyleTitle {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: translateY(-8px);
+    transform: scale(1.1);
+}
+.SleevesTypeFilter .dressStyleTitle {
+    height: 40px;
+    width: 100%;
+}
+.SleevesTypeFilter .dressStyleTitle span {
+    width: 100%;
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.SleevesTypeFilterWrapper .SleevesTypeFilter:hover span {
+    color: #262626;
+}
+.SleevesTypeFilter .SleevesTypeImg {
+    height: 170px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* #################################################  ###################################
+            <!-- ############### text plus image section   ############-->
+#################################################  ################################### */
+.section-heading {
+    margin: 30px auto;
+}
+.w-cat-main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+.text-section-img-area {
+    height: 300px;
+    width: 100%;
+    background-image: url("../image/text_section_images/sleeveLength.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.text-section-para {
+    font-size: 1rem;
+    line-height: normal;
+    width: 90%;
+}
+.text-section-see-more .read-more {
+    padding: 10px 15px;
+    border-radius: 7px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    color: #000;
+    border: rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text-section-see-more .read-more:hover {
+    color: #000;
+    border: rgba(0, 0, 0, 0.9);
+    font-size: 1.1rem;
+}
+.imgDiv {
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out 1s;
+}
+.imgDiv:hover .text-section-img-area {
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}

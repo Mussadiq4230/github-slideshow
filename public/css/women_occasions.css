@@ -1,0 +1,97 @@
+.women_occasions_page_body {
+    padding: 10px 30px 20px 30px;
+}
+
+/* #################################################  ###################################
+                                        women occasions dresses
+#################################################  ################################### */
+.occ__filter {
+    width: 240px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-right: 7px;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.occ__filter:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.occ__filters_inner {
+    background-size: contain;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.occ__filters_inner:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.occ__filter__title {
+    background-color: #283048;
+    /*opacity: 0.5;*/
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.occ__filter__title span {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.occ__filters_inner:hover .occ__filter__title {
+    opacity: 0.8;
+}
+
+/* setting background images  */
+.occ__filter1 {
+    background-image: url("../image/filters/occasion/cocktail/1.jpeg");
+}
+.occ__filter2 {
+    background-image: url("../image/filters/occasion/wedding-dress/1.jpg");
+}
+.occ__filter3 {
+    background-image: url("../image/filters/occasion/fall/1.jpg");
+}
+.occ__filter4 {
+    background-image: url("../image/filters/occasion/holiday/1.jpg");
+}
+.occ__filter5 {
+    background-image: url("../image/filters/occasion/work/1.jpg");
+}
+.occ__filter6 {
+    background-image: url("../image/filters/occasion/cozy/1.jpg");
+}
+.occ__filter7 {
+    background-image: url("../image/filters/occasion/party/1.jpg");
+}
+.occ__filter8 {
+    background-image: url("../image/filters/occasion/bridal/1.jpg");
+}
+.occ__filter9 {
+    background-image: url("../image/filters/occasion/evening-dresses/1.jpg");
+}
+.occ__filter10 {
+    background-image: url("../image/filters/occasion/going-out/1.jpg");
+}
+.occ__filter11 {
+    background-image: url("../image/filters/occasion/lounge/1.jpg");
+}
+.occ__filter12 {
+    background-image: url("../image/filters/occasion/office-wear/1.jpg");
+}
+.occ__filter13 {
+    background-image: url("../image/filters/occasion/sports/1.jpg");
+}
+.occ__filter14 {
+    background-image: url("../image/filters/occasion/festival/1.jpeg");
+}
+.occ__filter15 {
+    background-image: url("../image/filters/occasion/graduation/1.jpg");
+}

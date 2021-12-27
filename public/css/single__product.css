@@ -1,0 +1,481 @@
+/* ###################################Top Banner Section ################### */
+.topBanner {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 50px;
+}
+.topBanner .bannerImg {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.bannerHeading {
+    height: 100%;
+    width: 100%;
+}
+.bannerHeading .bH_title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.bannerHeading .bH_para {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    max-width: 992px;
+}
+.paraUnderBanner {
+    width: 100%;
+}
+.paraUnderBanner p {
+    max-width: 992px;
+}
+
+/* .topBanner .topBannerImg {
+
+    object-fit: contain;
+} */
+
+/* ###################################Top Banner Section ################### */
+
+.topOptions {
+    /* height: 40px; */
+    width: max-content;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.topOptions:hover,
+.topOptions:focus {
+    border: none;
+    outline: none;
+    background-color: #d2d2d2;
+}
+
+/* ##################################################################################################################
+                                                custom DropDowns sort
+################################################################################################################## */
+
+.cat-dropdown-area {
+    margin-top: 15px;
+    background-color: #eeeeee;
+    padding: 10px 10px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.select-box {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    background: #eeeeee;
+}
+
+.select-box .options-container {
+    background: #eeeeee;
+    color: #f5f6fa;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+
+    order: 1;
+}
+
+.selected {
+    background: #eeeeee;
+    border-radius: 8px;
+    /* margin-bottom: 2px; */
+    color: #667bae;
+    position: relative;
+
+    order: 0;
+}
+
+.selectedIcon {
+    color: #667bae;
+}
+
+.select-box .options-container.active {
+    max-height: 100px;
+    opacity: 1;
+    overflow-y: scroll;
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+.select-box .options-container.active + .selected .selectedIcon {
+    transform: rotateX(180deg);
+    top: -6px;
+}
+.select-box .options-container.active + .selected {
+    border-top: 1px solid #0770cf;
+    border-bottom: 1px solid #0770cf;
+}
+.selected:hover {
+    color: #0770cf;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+    width: 8px;
+    background: #798291;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 0 8px 8px 0;
+}
+
+.selected {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #eeeeee;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.select-box .option {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 5px;
+    color: #666666;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 7px;
+}
+
+.select-box .option:hover {
+    background: #0770cf;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .checkbox {
+    display: none;
+}
+.select-box input[type="checkbox"]:checked + label,
+.select-box input[type="checkbox"]:checked + option {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    /* background: #0770cf; */
+}
+/* ##################################################################################################################
+                                                custom DropDowns style
+################################################################################################################## */
+
+.container-cat-style {
+    /* padding: 3px;
+    border: 1px solid red; */
+}
+
+.select-box-style {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    background: #eeeeee;
+}
+
+.select-box-style .options-container-style {
+    background: #eeeeee;
+    color: #f5f6fa;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+
+    order: 1;
+}
+
+.selected-style {
+    background: #eeeeee;
+    border-radius: 8px;
+    /* margin-bottom: 2px; */
+    color: #667bae;
+    position: relative;
+
+    order: 0;
+}
+
+/* .selected-style::after {
+    content: "";
+    background: url("../image/arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+    transition: all 0.4s;
+    color: #667bae;
+} */
+.selectedIcon-style {
+    color: #667bae;
+}
+
+.select-box-style .options-container-style.active {
+    max-height: 100px;
+    opacity: 1;
+    overflow-y: scroll;
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+.select-box-style .options-container-style.active + .selected .selectedIcon {
+    transform: rotateX(180deg);
+    top: -6px;
+}
+.select-box-style .options-container-style.active + .selected {
+    border-top: 1px solid #0770cf;
+    border-bottom: 1px solid #0770cf;
+}
+.selected-style:hover {
+    color: #0770cf;
+}
+
+.select-box-style .options-container-style::-webkit-scrollbar {
+    width: 8px;
+    background: #798291;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box-style .options-container-style::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 0 8px 8px 0;
+}
+
+.selected-style {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #eeeeee;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.select-box-style .option-style {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 5px;
+    color: #666666;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 7px;
+}
+
+.select-box-style .option-style:hover {
+    background: #0770cf;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.select-box-style label {
+    cursor: pointer;
+}
+
+.select-box-style .option-style .checkbox-style {
+    display: none;
+}
+.select-box-style input[type="checkbox"]:checked + label,
+.select-box-style input[type="checkbox"]:checked + option {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* #################################################  ###################################
+                                       single product card
+#################################################  ################################### */
+
+.product-card {
+    height: 520px;
+    width: 250px;
+    box-shadow: rgba(167, 174, 182, 0.2) 0px 8px 24px;
+    position: relative;
+}
+.p-card-img {
+    height: 400px;
+    width: 100%;
+}
+.p-card-img img {
+    /* background-color: rgb(235, 235, 245); */
+    background: rgb(240, 241, 242);
+    background: radial-gradient(
+        circle,
+        rgba(240, 241, 242, 1) 31%,
+        rgba(186, 198, 207, 1) 100%
+    );
+}
+
+.iconsSection {
+    margin-top: -48px;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 0px;
+}
+.p-card-icon {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 7px;
+    cursor: pointer;
+}
+.p-card-icon a i {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+.p-card-icon a i:hover {
+    transform: scale(1.2);
+}
+
+.p-card-icon span i {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.p-card-icon span i:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.productDetails .productName {
+    /*height: 35px;*/
+    overflow: hidden;
+}
+.productDetails .productName .productTitle {
+    font-size: 1.6rem;
+    color: #2f3337;
+    font-family: serif;
+}
+.productDetails .productName .productTitle:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.productDetails .productPrice {
+    height: 20px;
+    /* border: 1px solid red; */
+}
+.productDetails .productPrice .price {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.productDetails .productPrice .discount {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #867070;
+}
+.productDetails .productType {
+    height: auto;
+    overflow: hidden;
+}
+
+.productDetails .productType .productTypeList {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: black;
+    font-style: oblique;
+}
+
+.p-card-externalLink a .storeLink {
+    color: #867070;
+}
+.infoPopUp {
+    transform: translateY(-120px);
+    border-radius: 0px;
+    z-index: 100;
+    display: none;
+    max-width: 90%;  
+    min-width: 90%;  
+    min-height: 77px;
+    background-color: #e2efda;
+    position: absolute;
+}
+
+/* ///////ToolTip/////// */
+
+/* change style balloon */
+.tooltip-inner {
+    background-color: #fdde36 !important;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* //////////////// */
+.product-card:hover .infoPopUp {
+    display: block;
+    z-index: 100;
+    /*margin-top: -100px;*/
+}
+.product-card:hover .productDetails {
+    /*transform: translateY(-25px);*/
+}
+
+.product-colors .colorArea {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.product-material .material {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+.product-material .materialHeading {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+}
+.product-size .size {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.offPrice {
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    top: 0;
+    left: 20;
+    background-color: #fdde36;
+    position: absolute;
+    overflow: hidden;
+}
+.offPrice span {
+    font-weight: 0.6rem;
+    font-weight: bold;
+}
+.product__card__section {
+    margin-top: 90px;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #283048 !important;
+    border-color: #283048 !important;
+}

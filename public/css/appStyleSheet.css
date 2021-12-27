@@ -1,0 +1,529 @@
+/* ############################################################################################
+                                    mega menu 
+############################################################################################# */
+
+#menu .nav > li.large_menu > div > div .listItem a:hover {
+    color: blue;
+    border-radius: none;
+    transition: 0.5s;
+    background-color: transparent;
+    border: none;
+}
+#menu .nav > li.large_menu > div > div .listItem a:hover,
+#menu .nav > li.large_menu > div > div .listItem a:focus {
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: #999;
+    border: none;
+}
+.mega-menu-cat-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.mega-menu-cat-title h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.listItem a {
+    color: #fff;
+    cursor: pointer;
+    width: max-content;
+}
+.listItem:hover a,
+.listItem a:hover {
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: #999;
+    border: none;
+}
+.mega-menu-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 0px solid gray;
+}
+.mega-menu-img,
+.mega-menu-img-col3,
+.megaMenucol3subTitle {
+    display: block !important;
+    cursor: pointer;
+}
+
+.listItems2:hover .mega-menu-img {
+    border: 3px solid blue;
+}
+.listItems2:hover .listItem2Title {
+    border: 1px solid blue;
+}
+.listItems2:hover a {
+    background-color: transparent !important;
+}
+.mega-menu-img:hover + a {
+    color: blue;
+}
+.listItems2:hover a {
+    color: blue;
+}
+.megacol2 {
+    border-left: 1px solid gray;
+}
+.megacol2-right {
+    border-right: 1px solid gray;
+}
+.mega-menu-img-col3 {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 0px solid gray;
+}
+.megaMenucol3subTitle {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.megaMenucol3subTitle a {
+    color: #fff;
+}
+.ListCol3:hover .mega-menu-img-col3 {
+    border: 3px solid blue;
+}
+.ListCol3:hover .megaMenucol3subTitle a {
+    color: blue;
+}
+
+#menu .nav > li:hover > .onActiveNav {
+    display: inline;
+    /* content: url("../image/icons/single-angle-down.png") !important; */
+}
+.onActiveNav {
+    height: 20px;
+    width: 20px;
+    display: none;
+    padding-right: 15px;
+    padding-left: 0px;
+    color: #777;
+}
+.arrowDownIcon {
+    display: none;
+}
+#menu .nav > li > a {
+    padding: 0px 3px 0px 15px !important;
+}
+.nav > li:hover > a > .onActiveNav .arrowDownIcon {
+    display: inline;
+}
+
+/* ############################################################################################
+                                    large menu2 
+############################################################################################ */
+.meag2-img-col {
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+}
+.mega2text p {
+    color: #fff;
+}
+.mega2icon i {
+    color: #fff;
+}
+.mega2icon {
+    height: 30px;
+    width: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.meage2col2singleItem {
+    border-bottom: 1px solid gray;
+}
+.border-bottom-half {
+    border-bottom: 1px solid gray;
+}
+.mega2-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    /* border-bottom: 1px solid gray; */
+}
+.salesMagaMenubody {
+    height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.salesOfferBottom {
+    background-color: rgba(35, 41, 32, 0.4);
+    margin-bottom: -10px;
+}
+.salesOfferBottom p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* ////////////main menu arrow down color ////////////// */
+#menu .nav > li.sub:hover > a:after {
+    border-bottom-color: #000;
+}
+
+#menu .nav > li.sub:hover > a:after 
+/* #menu .nav > li.sub:hover > #newArivals:after  */ {
+    /* clear: both;
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  
+    border-color: transparent transparent #000 transparent;
+    position: absolute;
+    border-width: 0px 7px 6px 7px;
+    bottom: 0px;
+    left: 50%;
+    margin: 0 0 0 -5px;
+    z-index: 1009; */
+}
+
+/* ################################################################################################
+                                            Brand mega menu 
+################################################################################################ */
+.kidsMegaMenuBody,
+.brandMegaMenuBody {
+    height: 65vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.brandTitle {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.singleBrnad1 {
+    background: url("../image/brandsLogos/addidasLogo.png") no-repeat;
+    background-position: center;
+    background-color: #fff;
+    object-fit: cover;
+    background-size: cover;
+}
+.singleBrnad2 {
+    background: url("../image/brandsLogos/armaniLogo1.png") no-repeat;
+    background-position: center;
+    background-color: #fff;
+    object-fit: contain;
+    background-size: cover;
+}
+.singleBrnad3 {
+    background: url("../image/brandsLogos/louisLogo1.png") no-repeat;
+    background-position: center;
+    background-color: #fff;
+    object-fit: cover;
+    background-size: cover;
+}
+.singleBrnad4 {
+    background: url("../image/brandsLogos/gucciLogo1.png") no-repeat;
+    background-position: center;
+    background-color: #fff;
+    object-fit: cover;
+    background-size: cover;
+}
+.singleBrnad5 {
+    background: url("../image/brandsLogos/hermesLogo1.png") no-repeat;
+    background-position: center;
+    background-color: #fff;
+    object-fit: cover;
+    background-size: cover;
+}
+.singleBrnad6 {
+    background: url("../image/brandsLogos/bershkaLogo1.png") no-repeat;
+    background-position: center;
+    background-color: #fff;
+    object-fit: cover;
+    background-size: cover;
+}
+.singleBrnad7 {
+    background: url("../image/brandsLogos/converseLogo1.png") no-repeat;
+    background-position: center;
+    background-color: #fff;
+    object-fit: contain;
+    background-size: cover;
+}
+.singleBrnad8 {
+    background: url("../image/brandsLogos/asosLogo1.png") no-repeat;
+    /* background-size:cover; */
+    background-position: center;
+    background-color: #fff;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.brandLinks:hover {
+    background-color: transparent !important;
+}
+
+.brand1:hover {
+    /* transform: scale(1.8); */
+}
+
+.singleBrnad1,
+.singleBrnad2,
+.singleBrnad3,
+.singleBrnad4,
+.singleBrnad5,
+.singleBrnad6,
+.singleBrnad7,
+.singleBrnad8 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* .brandLowSection {
+    background-color: #eeeeee;
+    opacity: 1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+} */
+
+.characterAZ {
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    font-weight: 700;
+    margin: 3px;
+}
+.characterAZ:hover {
+    border-radius: 7px;
+    border: 1px solid #000;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #fff;
+    color: black;
+    /* transition: ease-in-out 0.2s; */
+}
+
+#menu .nav > li.menu_brands > div {
+    padding: 0px 0px 0px 0px !important;
+}
+#menu .nav > li.menu_brands > div > div {
+    text-align: center;
+    margin-bottom: 0px;
+}
+#menu .nav > li.categories > div > .column:hover > a,
+#menu .nav > li div > ul > li:hover > a,
+#menu .nav > li.mega-menu > div > .column:hover > a,
+#menu .nav > li.menu_brands > div > div a:hover,
+#menu .custom_block a:hover,
+.mega-cat:hover {
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: transparent !important;
+    border: none;
+}
+
+/* ################################################################################################
+                                            Online Stores
+################################################################################################ */
+.onlineStoresMegaBody {
+    height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.singleStore {
+    height: 100px;
+    width: 90px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+.singleStore:hover {
+    background-color: #fff !important;
+}
+
+/* ################################################################################################
+                                           Business mega manu 
+################################################################################################ */
+.businessMagaMenubody {
+    height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px 50px;
+}
+.mega__products .product__name {
+    color: #fff;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.mega_col_head {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.mega_col_head:hover {
+    /*text-decoration: underline;*/
+}
+.product__name:hover {
+    /* font-weight: bold; */
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 300;
+}
+.mega__col__img {
+    width: 110px;
+    height: 110px;
+}
+
+.mega__col__img_kids {
+    width: 250px;
+    height: 150px;
+}
+.mega__col__link,
+.mega__col__link:hover {
+    cursor: pointer;
+}
+.mega__col__link:hover .product__title {
+    text-decoration: underline;
+}
+.mega__col__link:hover .product__shop__now {
+    text-decoration: underline;
+}
+
+.mega__col__link .product__title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top:10px;
+}
+
+/* ################################################################################################
+                                            new arrivals mega menu 
+################################################################################################ */
+.newArrivalsMegaMenuBody {
+    height: 65vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.newArrival {
+    width: 190px;
+    margin: 3px;
+}
+.newArrivalImg {
+    width: 100%;
+    height: 210px;
+    background-color: #eaeded;
+}
+.newArrivalImg:hover {
+    width: 100%;
+    height: 210px;
+    background-color: #eaeded !important;
+}
+.newArrivalName span {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.newArrivalName span:hover {
+    text-decoration: underline;
+}
+.newArrivalSeeMore span:hover {
+    text-decoration: underline;
+}
+
+/* ################################################################################################
+                                           text animation 
+################################################################################################ */
+.animate__text {
+    width: 100%;
+    animation: typing 5s steps(22), blink 0.8s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid; */
+    font-family: monospace;
+    font-size: 1.2rem;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 576px) {
+    .megacol2 {
+        border-left: 0px !important;
+    }
+     .megacol2-right, .men-images{
+        border-right: 0px !important;
+     }
+
+    .businessMagaMenubody {
+        padding: 0px !important;
+    }
+}
+
+@media (max-width: 768px) {
+     .megacol2 {
+        border-left: 0px !important;
+    }
+     .megacol2-right, .men-images{
+        border-right: 0px !important;
+     }
+     
+    .businessMagaMenubody {
+        padding: 0px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .hideText {
+        display: none;
+    }
+    .showText {
+        display: inline;
+    }
+
+     .megacol2 {
+        border-left: 0px !important;
+    }
+     .megacol2-right, .men-images{
+        border-right: 0px !important;
+     }
+
+     .mega-menu-img{
+        height: 70px;
+        width: 70px;
+     }
+     .mega-menu-image > a{
+        font-size: 12px;
+     }
+}
+
+@media (min-width: 1200px) {
+}
+
+
+.text-normal{
+    text-transform:none !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
